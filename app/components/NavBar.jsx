@@ -13,20 +13,20 @@ const NavBar = () => {
           <div>
             <h1 className="font-semibold text-4xl">MS.</h1>
           </div>
-          <div className={`hidden  md:flex md:flex-row space-x-4`}>
+          {/* <div className={`hidden  md:flex md:flex-row space-x-4`}>
             <div className=" ">Projects</div>
             <div className=" ">Projects</div>
             <div className=" ">Projects</div>
-          </div>
+          </div> */}
           <div>
             <ThemeSwitcher />
-            <button
+            {/* <button
               onBlur={() => setMenu(false)}
               onClick={() => setMenu(!menu)}
               className="text-gray-400 hover:text-gray-800 focus:outline-none  md:hidden focus:text-gray-800"
             >
               <FiMenu size={30} />
-            </button>
+            </button> */}
           </div>
         </div>
         <div

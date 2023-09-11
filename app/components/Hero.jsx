@@ -4,7 +4,7 @@ import { buttonData } from "../utils/data";
 const Hero = () => {
   return (
     <>
-      <div id="1" className="pt-20 bg-white dark:bg-black h-screen px-10 ">
+      <div id="1" className="pt-16 bg-white dark:bg-black h-screen px-10 ">
         <h3 className="pt-12 pb-5 font-montserrat text-2xl text-gray-500  dark:text-gray-400 ">
           Hey, I am
         </h3>

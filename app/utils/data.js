@@ -2,6 +2,7 @@ import {
   AiOutlineMail,
   AiOutlineLinkedin,
   AiOutlineGithub,
+  AiOutlineGoogle
 } from "react-icons/ai";
 
 export const buttonData = [
@@ -28,9 +29,9 @@ export const buttonData = [
     fromColor: "from-[#833ab4]",
     viaColor: "via-[#fd1d1d]",
     toColor: "to-[#fcb045]",
-    icon: <AiOutlineGithub size={25} />,
-    url: "https://github.com/mohammedsafvan/",
-    text: "Github",
+    icon: <AiOutlineGoogle size={25} />,
+    url: "https://g.dev/mohammedsafvan",
+    text: "Google Dev",
   },
   {
     id: 4,

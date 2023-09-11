@@ -8,7 +8,6 @@ const Layout = () => {
     <ThemeProvider attribute="class" defaultTheme="dark">
       <NavBar />
       <Hero />
-      {/* <Hero /> */}
     </ThemeProvider>
   );
 };
