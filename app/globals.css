@@ -7,6 +7,6 @@
 @layer base{
   body {
     -webkit-tap-highlight-color: transparent;
-      @apply  bg-lightColor dark:bg-darkColor text-darkColor dark:text-lightColor lg:px-56
+      @apply  bg-lightColor dark:bg-darkColor text-darkColor dark:text-lightColor lg:px-32
   }
 }

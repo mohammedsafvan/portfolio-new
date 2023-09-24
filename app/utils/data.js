@@ -126,8 +126,10 @@ export const techStacks = [
 export const projects = [
   {
     name: "Todo Firebase",
+    preview: "google.com",
     techStack: ["Flutter", "Firebase"],
-    image: "/todo_firebase.png",
+    image:
+      "https://raw.githubusercontent.com/mohammedsafvan/portfolio-safvan/e81e65b15f8c2c2030054b7d1720799dc637e81f/public/todo_firebase.png",
     description:
       "A todo Android app with firebase cloud firestore and authentication(Phone No, Google, Email) with persistant storage",
     url: "https://github.com/mohammedsafvan/todo_firebase",
@@ -139,35 +141,5 @@ export const projects = [
       "https://raw.githubusercontent.com/mohammedsafvan/note-taking-app/main/note-app.png",
     description: "A minimalistic note taking app based on markdown. ",
     url: "https://github.com/mohammedsafvan/note-taking-app",
-  },
-  {
-    name: "Portfolio",
-    techStack: ["NextJs", "Tailwind CSS"],
-    image: "/portfolio.png",
-    description: "This website, which is made with NextJs and Tailwind CSS",
-    url: "https://github.com/mohammedsafvan/portfolio-safvan",
-  },
-];
-
-export const socials = [
-  {
-    name: "LinkedIn",
-    Icon: <AiFillLinkedin className="hover:scale-125 duration-500" />,
-    url: "https://www.linkedin.com/in/mohammed-safvan-7022b21a3/",
-  },
-  {
-    name: "Github",
-    Icon: <AiFillGithub className=" hover:scale-125 duration-500" />,
-    url: "https://github.com/mohammedsafvan",
-  },
-  {
-    name: "GoogleDev",
-    Icon: <AiFillGoogleCircle className="   duration-500 hover:scale-125" />,
-    url: "https://g.dev/mohammedsafvan",
-  },
-  {
-    name: "Mail",
-    Icon: <AiFillMail className="duration-500 hover:scale-125" />,
-    url: "mailto:mohammedsafvan.me@gmail.com",
   },
 ];

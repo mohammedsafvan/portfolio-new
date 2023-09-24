@@ -9,7 +9,7 @@ const Layout = () => {
     <ThemeProvider attribute="class" defaultTheme="dark">
       <NavBar />
       <Hero />
-      <Projects/>
+      <Projects />
     </ThemeProvider>
   );
 };

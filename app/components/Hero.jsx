@@ -33,6 +33,7 @@ const Hero = () => {
           ))}
         </div>
       </div>
+      <div className="min-h-[1px] hidden justify-center lg:block bg-gray-300 "></div>
     </>
   );
 };
