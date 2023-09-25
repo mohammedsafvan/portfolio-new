@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Project = ({ element }) => {
   return (
-    <div className="max-w-md box-border bg-transparent border-gray-300 shadow-sm border-[.1em] p-3 rounded-2xl">
+    <div className="max-w-md box-border bg-transparent shadow-md shadow-slate-700  p-3 rounded-2xl">
       <Image
         width={0}
         height={0}

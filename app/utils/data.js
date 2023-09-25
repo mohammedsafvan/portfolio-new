@@ -126,7 +126,7 @@ export const techStacks = [
 export const projects = [
   {
     name: "Todo Firebase",
-    preview: "google.com",
+    // preview: "google.com",
     techStack: ["Flutter", "Firebase"],
     image:
       "https://raw.githubusercontent.com/mohammedsafvan/portfolio-safvan/e81e65b15f8c2c2030054b7d1720799dc637e81f/public/todo_firebase.png",
