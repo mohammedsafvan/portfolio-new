@@ -41,9 +41,11 @@ const Project = ({ element }) => {
               toColor={"to-[#fc466b]"}
             />
           )}
-          <Link href={element.url}>
-            <AiFillGithub className="mx-3" size={50} />
-          </Link>
+          {element.url && (
+            <Link href={element.url}>
+              <AiFillGithub className="mx-3" size={50} />
+            </Link>
+          )}
         </div>
       </div>
     </div>

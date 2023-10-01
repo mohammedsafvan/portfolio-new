@@ -3,10 +3,6 @@ import {
   AiOutlineLinkedin,
   AiOutlineGithub,
   AiOutlineGoogle,
-  AiFillLinkedin,
-  AiFillGithub,
-  AiFillGoogleCircle,
-  AiFillMail,
 } from "react-icons/ai";
 
 export const buttonData = [
@@ -141,5 +137,12 @@ export const projects = [
       "https://raw.githubusercontent.com/mohammedsafvan/note-taking-app/main/note-app.png",
     description: "A minimalistic note taking app based on markdown. ",
     url: "https://github.com/mohammedsafvan/note-taking-app",
+  },
+  {
+    name: "Blood donation app",
+    techStack: ["Flutter", "Firebase"],
+    description:
+      "An application which enables a community to register their details for blood donation, and also search for donors with specified area",
+    image: '/blood-donation.png',
   },
 ];
