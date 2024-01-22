@@ -5,10 +5,10 @@ const Hero = () => {
   return (
     <>
       <div id="1" className="p-12  md:py-24 bg-white dark:bg-black h-screen  ">
-        <h3 className="pb-10  font-montserrat text-2xl text-gray-500  dark:text-gray-400 ">
+        <h3 className="pb-20  font-montserrat text-2xl text-gray-500  dark:text-gray-400 ">
           Hey, I am
         </h3>
-        <h1 className=" pb-10 md:pb-20 leading-[100%] font-montserrat  text-transparent bg-clip-text bg-gradient-to-r from-[#9845E8]  via-[#33D2FF] to-[#DD5789] font-bold text-[3.5rem]">
+        <h1 className=" pb-10 md:pb-28 leading-[100%] font-montserrat  text-transparent bg-clip-text bg-gradient-to-r from-[#9845E8]  via-[#33D2FF] to-[#DD5789] font-bold text-[3.5rem]">
           Mohammed Safvan
         </h1>
 
