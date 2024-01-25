@@ -12,12 +12,7 @@ const Hero = () => {
           Mohammed Safvan
         </h1>
 
-        <p className="pb-10 md:pb-20 font-montserrat md:tracking-wider md:text-2xl  text-lg text-justify text-black dark:text-white">
-          An individual with passion for coding. Currently pursuing
-          undergraduates from Sree Chitra Thirunal College of Engineering. I
-          Likes to work with new technologies. Interested in Artificial
-          Intelligence and Machine Learning. Familiar with popular technologies
-          of web, mobile AI & ML
+        <p className="pb-10 md:pb-20 font-montserrat md:tracking-wider md:text-2xl  text-lg text-justify text-black dark:text-white">An individual with a passion for coding, currently pursuing undergraduate studies at Sree Chitra Thirunal College of Engineering. I like to work with new technologies and am particularly interested in Artificial Intelligence and Machine Learning. Familiar with popular web, mobile, AI, and ML technologies.
         </p>
         <div className="pb-10 md:pb-20  gap-6 grid grid-cols-2 md:grid-cols-4 ">
           {buttonData.map((element) => (
